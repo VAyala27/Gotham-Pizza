@@ -6,7 +6,12 @@
 
 ul{
     list-style: none;
-}   
+} 
+
+.list-group {
+    flex-direction: row !important;
+    justify-content: center;
+}
 
 a{
     text-decoration: none;
