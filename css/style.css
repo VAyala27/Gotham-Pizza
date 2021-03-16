@@ -13,6 +13,10 @@ ul{
     justify-content: center;
 }
 
+.list-group-item{
+    cursor: pointer;
+}
+
 a{
     text-decoration: none;
 }
@@ -28,4 +32,28 @@ a{
     margin-top: 40%;
     font-size: 6.5rem;
     letter-spacing: 10px;
+}
+
+#menu{
+    background: #150f0f;
+    color:  #fff;
+}
+
+#menu .card{
+    background: #150f0f;
+    border: none;
+}
+
+#main-footer, footer, .navbar{
+    background: #150f0f;
+    color:  #fff;
+}
+
+.bg-black{
+    background: #150f0f;
+    color:  #fff;
+}
+
+.bg-black a, #main-footer a{
+    color: #fff;
 }
