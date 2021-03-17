@@ -40,30 +40,32 @@
         </nav>
     </header>
 
-    <div class="about-heading text-center py-5 bg-black">
-        <h1 class="pt-4">About Us</h1>
-        <nav aria-label="breadcrumb" class="breadcrumb d-flex justify-content-between bg-black">
-            <ol class="breadcrumb bg-black mx-auto">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">About</li>
-            </ol>
-    </div>
+    <main class="bg-black">
+        <div class="about-heading text-center py-5">
+            <h1 class="pt-4">About Us</h1>
+            <nav aria-label="breadcrumb" class="breadcrumb d-flex justify-content-between bg-black">
+                <ol class="breadcrumb bg-black mx-auto">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About</li>
+                </ol>
+        </div>
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="text-center">About Us</h2>
-                    <p class="text-center">We are a second-generation family business established in 1972</p>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center">About Us</h2>
+                        <p class="text-center">We are a second-generation family business established in 1972</p>
+                    </div>
                 </div>
+
             </div>
+        </div>
+
+        <div id="meet-the-team">
 
         </div>
-    </div>
-
-    <div id="meet-the-team">
-
-    </div>
+    </main>
 
     <div id="main-footer" class="text-white py-4">
         <div class="container">
@@ -102,19 +104,24 @@
                     <h4>Subscribe Us</h4>
                     <p>Subscribe to the La Vie newsletter to
                         get regular update about offers</p>
-                    <input type="text" class="form-control" placeholder="Enter your email">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Enter your email" aria-label="Email"
+                            aria-describedby="Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-danger" type="button">Submit</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <footer id="bottom-footer">
-        <div class="container">
-            <div class="d-flex">
-                <p>&copy;Gotham Pizza all Rights Reserved</p>
+        <footer id="bottom-footer">
+            <div class="container">
+                <div class="d-flex">
+                    <p>&copy;Gotham Pizza all Rights Reserved</p>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 </body>
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
