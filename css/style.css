@@ -54,6 +54,11 @@ a{
     color:  #fff;
 }
 
+.bg-white{
+    background: #fff;
+    color: #000;
+}
+
 .bg-black a, #main-footer a{
     color: #fff;
 }

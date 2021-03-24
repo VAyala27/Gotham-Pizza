@@ -22,10 +22,10 @@
                 </button>
                 <div id="my-nav" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
@@ -40,47 +40,28 @@
         </nav>
     </header>
 
-    <main class="bg-black">
-        <div class="about-heading text-center py-5">
-            <h1 class="pt-4">About Us</h1>
-            <nav aria-label="breadcrumb" class="breadcrumb d-flex justify-content-between bg-black">
-                <ol class="breadcrumb bg-black mx-auto">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">About</li>
-                </ol>
-        </div>
-
-        <div id="about-heading">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="text-center">About Us</h2>
-                        <p class="text-center">We are a second-generation family business established in 1972</p>
+    <div class="login-form bg-black py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="bg-white p-5">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input id="username" class="form-control" type="text" name="username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input id="password" class="form-control" type="text" name="password">
+                        </div>
+                        <button class="btn btn-dark d-block w-50 mx-auto" type="button">Submit</button>
                     </div>
+                </div>
+                <div class="col-md-8">
+                    <img src="https://wallpaperaccess.com/full/866656.jpg" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
-
-        <div id="about-us">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="http://androthemes.com/themes/html/slices/assets/img/auth.jpg" class="img-fluid"
-                            alt="">
-                    </div>
-                    <div class="col-md-6">
-                        <h6 class="text-danger">About Us</h6>
-                        <h2>Serving Pizzas By The Slice Since 1987</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy
-                            text of the printing and typesetting industry.</p>
-
-                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
+    </div>
 
     <div id="main-footer" class="text-white py-4">
         <div class="container">
@@ -129,14 +110,15 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <footer id="bottom-footer">
-            <div class="container">
-                <div class="d-flex">
-                    <p>&copy;Gotham Pizza all Rights Reserved</p>
-                </div>
+    <footer id="bottom-footer">
+        <div class="container">
+            <div class="d-flex">
+                <p>&copy;Gotham Pizza all Rights Reserved</p>
             </div>
-        </footer>
+        </div>
+    </footer>
 </body>
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
